@@ -1,6 +1,7 @@
+
 /**
 * Template Name: FlexStart
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
+* Updated: Aug 30 2023 with Bootstrap v5.3.1
 * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -14,9 +15,58 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Russo One", sans-serif;
   color: #444444;
+  font-weight: 400;
+  
 }
+
+.titulo-hero,
+.segundo {
+color: white !important;
+}
+
+.titulo-hero-detalle, h1 {
+  color: white !important;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 50px !important;
+}
+
+.new, h2 {
+font-family:'Bricolage Grotesque', sans-serif !important;
+font-weight: 400;
+  font-size: 28px !important;
+  color: white !important;
+  padding-top:-10px;
+}
+
+.parrafito {
+  font-family:'Bricolage Grotesque', sans-serif !important;
+font-weight: 400;
+  font-size: 20px !important;
+  color: white !important;
+  padding-top:10px;
+  line-height: 26px;
+}
+
+.money {
+  font-family:"Russo One", sans-serif !important;
+font-weight: 400;
+  font-size: 28px !important;
+  color: white !important;
+  padding-bottom:-10px;
+  margin-bottom:-10px;
+}
+
+.segundo {
+  font-family:'Bricolage Grotesque', sans-serif !important;
+  }
+
+.titulo-hero {
+  font-family: "Russo One", sans-serif !important;
+}
+
 
 a {
   color: #4154f1;
@@ -34,12 +84,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
 }
 
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+
+
+
+#contacto {
+  position: center;
+
+}
+
+.final {
+  position: right;
+}
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -50,6 +111,16 @@ section {
   padding-bottom: 40px;
 }
 
+.testimonials {
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.portfolio {
+  margin-top: 200px;
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
 .section-header h2 {
   font-size: 13px;
   letter-spacing: 1px;
@@ -57,6 +128,32 @@ section {
   margin: 0;
   color: #4154f1;
   text-transform: uppercase;
+
+}
+
+.section-header h4 {
+color: #28044C;
+font-family: "Bricolage Grotesque", sans-serif !important;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 5px;
+}
+
+
+.box {
+  color: #28044C;
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 5px;
+  }
+
+.features  {
+  padding-bottom: 20px !important;
 }
 
 .section-header p {
@@ -64,10 +161,31 @@ section {
   padding: 0;
   font-size: 38px;
   line-height: 42px;
-  font-weight: 700;
-  color: #012970;
+  font-weight: 400;
+  color: #28044C;
 }
 
+.pricing .section-header p  {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #ffffff !important;
+}
+.testimonials .section-header p  {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #ffffff !important;
+}
+
+.pricing .section-header h4  {
+ 
+  color: #ffffff !important;
+}
 @media (max-width: 768px) {
   .section-header p {
     font-size: 28px;
@@ -136,7 +254,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #9f7d3e;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -150,7 +268,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: #9f7d3e;
   color: #fff;
 }
 
@@ -178,7 +296,7 @@ section {
 }
 
 .header.header-scrolled {
-  background: #fff;
+  background: #CC9966;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -229,10 +347,10 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif !important;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -248,7 +366,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #28044C;
 }
 
 .navbar .getstarted,
@@ -480,7 +598,7 @@ section {
 .hero h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
   color: #012970;
 }
 
@@ -494,15 +612,15 @@ section {
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 10px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  background: #28044C;
+  box-shadow: 0px 5px 30px rgba(65, 83, 241, 0);
 }
 
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif !important;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -569,21 +687,24 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
+  background-color: #CC9966;
   padding: 40px;
+ color: #ffffff;
+ font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 .about h2 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #012970;
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Russo One", sans-serif;
 }
 
 .about p {
@@ -594,15 +715,15 @@ section {
 .about .btn-read-more {
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 10px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  background: #28044C;
+  box-shadow: 0px 5px 25px rgba(255, 255, 255, 0);
 }
 
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif !important;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -618,6 +739,9 @@ section {
   transform: translateX(5px);
 }
 
+#about .about {
+  background-color:#CC9966
+}
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
@@ -637,8 +761,10 @@ section {
 
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
-  font-weight: 700;
+  color: #CC9966;
+  font-family: "Russo One", sans-serif !important; 
+  font-variant: bold;
+  font-weight: 400;
   margin-bottom: 18px;
 }
 
@@ -649,6 +775,8 @@ section {
 .values .box:hover img {
   transform: scale(1);
 }
+
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -690,6 +818,7 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+
 .features .feature-box {
   padding: 24px 20px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
@@ -699,7 +828,7 @@ section {
 
 .features .feature-box h3 {
   font-size: 18px;
-  color: #012970;
+  color: #28044C;
   font-weight: 700;
   margin: 0;
 }
@@ -715,19 +844,22 @@ section {
 }
 
 .features .feature-box:hover i {
-  background: #4154f1;
+  background: #13A7BE;
   color: #fff;
 }
 
 .features .feture-tabs {
-  margin-top: 120px;
+  margin-top: 1px;
+  margin-bottom: 80px;
 }
 
 .features .feture-tabs h3 {
-  color: #012970;
-  font-weight: 700;
-  font-size: 32px;
+  color: #28044C;
+  font-weight: 400;
+  font-size: 30px;
   margin-bottom: 10px;
+  font-family: "Russo One", sans-serif !important;
+
 }
 
 @media (max-width: 768px) {
@@ -744,8 +876,8 @@ section {
   background: none;
   text-transform: uppercase;
   font-size: 15px;
-  font-weight: 600;
-  color: #012970;
+  font-weight: 400;
+  color: #CC9966;
   padding: 12px 0;
   margin-right: 25px;
   margin-bottom: -2px;
@@ -753,30 +885,37 @@ section {
 }
 
 .features .feture-tabs .nav-link.active {
-  color: #4154f1;
-  border-bottom: 3px solid #4154f1;
+  color: #25A6BA;
+  border-bottom: 3px solid #25A6BA;
 }
 
 .features .feture-tabs .tab-content h4 {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: #012970;
+  color: #CC9966;
+  font-family: "Bricolage Grotesque", sans-serif !important;
 }
 
 .features .feture-tabs .tab-content i {
   font-size: 24px;
   line-height: 0;
   margin-right: 8px;
-  color: #4154f1;
+  color: #CC9966;
 }
 
+.features .tab-content {
+  font-size: 20px;
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  color: #28044C;
+  font-weight: 400;
+}
 .features .feature-icons {
   margin-top: 120px;
 }
 
 .features .feature-icons h3 {
-  color: #012970;
+  color: #000000;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -941,20 +1080,20 @@ section {
 }
 
 .services .service-box.pink {
-  border-bottom: 3px solid #f51f9c;
+  border-bottom: 3px solid #CC9966;
 }
 
 .services .service-box.pink .icon {
-  color: #f51f9c;
+  color: #CC9966;
   background: #feecf7;
 }
 
 .services .service-box.pink .read-more {
-  color: #f51f9c;
+  color: #CC9966;
 }
 
 .services .service-box.pink:hover {
-  background: #f51f9c;
+  background: #CC9966;
 }
 
 .services .service-box:hover h3,
@@ -988,15 +1127,17 @@ section {
 
 .pricing h3 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 15px;
+  
 }
+
 
 .pricing .price {
   font-size: 36px;
-  color: #444444;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  color: #28044C;
+  font-weight: 400;
+  font-family: "Russo One", sans-serif;
 }
 
 .pricing .price sup {
@@ -1012,13 +1153,13 @@ section {
 }
 
 .pricing img {
-  padding: 30px 40px;
+  padding: 5px 15px;
 }
 
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #28044C;
   text-align: center;
   line-height: 26px;
   font-size: 16px;
@@ -1038,18 +1179,18 @@ section {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: #28044C;
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid #28044C;
 }
 
 .pricing .btn-buy:hover {
-  background: #4154f1;
+  background: #28044C;
   color: #fff;
 }
 
@@ -1062,9 +1203,30 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #4154f1;
+  background: #28044C;
   color: #fff;
 }
+
+.pricing {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/hero-bg12.png) top center no-repeat;
+  padding-bottom: 700px;
+  background-size: cover;
+  
+}
+ 
+#pricing {
+  margin-top: 1px;
+  margin-bottom: 10px;
+
+}
+
+ .fin {
+      padding-bottom: 20px; 
+    
+    }
+
 
 /*--------------------------------------------------------------
 # F.A.Q
@@ -1078,25 +1240,44 @@ section {
   font-weight: 600;
   border: 0;
   font-size: 18px;
-  color: #444444;
+  color: #ffffff;
   text-align: left;
+  background-color: #9f7d3e;
 }
 
 .faq .accordion-button:focus {
   box-shadow: none;
+  
 }
 
 .faq .accordion-button:not(.collapsed) {
   background: none;
-  color: #4154f1;
+  color: #ffffff;
   border-bottom: 0;
+}
+
+.faq .accordion-header {
+  background-color: #9f7d3e;
 }
 
 .faq .accordion-body {
   padding: 0 0 25px 0;
   border: 0;
+  background-color: #9f7d3e;
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: -5px;
 }
-
+.faq {
+  width: 100%;
+    background: url(../img/hero-bg12) top center no-repeat;
+    background-size: cover;
+  }
+  
+.faq .section-header p {
+  color: #ffffff;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1108,6 +1289,7 @@ section {
   background: white;
   border-radius: 50px;
   padding: 2px 15px;
+  font-family: "Bricolage Grotesque", sans-serif !important;
 }
 
 .portfolio #portfolio-flters li {
@@ -1117,7 +1299,7 @@ section {
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
-  color: #444444;
+  color: #28044C;
   margin: 0 4px 8px 4px;
   transition: 0.3s;
   border-radius: 50px;
@@ -1126,8 +1308,9 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #4154f1;
-  border-color: #4154f1;
+  color: #28044C;
+  border-color: #28044C;
+  
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1144,7 +1327,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(146, 241, 254, 0.75);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1225,7 +1408,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #4154f1;
+  background: #28044C;
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -1242,7 +1425,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  background: #28044C;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -1271,11 +1454,17 @@ section {
   right: 15px;
 }
 
+.portfolio {
+  margin-top: 70px;
+  margin-bottom: 130px;
+  padding: 2px 15px;
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+  padding-bottom: 100px;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1370,9 +1559,9 @@ section {
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 800;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #CC9966;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1394,13 +1583,13 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #25A6BA;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #ffffff;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #ffffff;
 }
 
 .testimonials .swiper-slide {
@@ -1423,6 +1612,19 @@ section {
     transform: scale(1.12);
   }
 }
+.testimonials  {
+background: url(../img/hero-bg.png) top center no-repeat;
+margin-bottom: 90px;
+padding-bottom: 90px;
+}
+
+.testimonial-item p {
+font-family: "Bricolage Grotesque", sans-serif !important;
+font-weight: 500;
+color: #28044C;
+}
+
+
 
 /*--------------------------------------------------------------
 # Team
@@ -1528,6 +1730,7 @@ section {
 .clients .clients-slider .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
+  
 }
 
 .clients .clients-slider .swiper-slide img:hover {
@@ -1538,18 +1741,23 @@ section {
   margin-top: 20px;
   position: relative;
 }
+.clients .swiper-pagination-horizontal {
+  margin-top: 40px !important;
+}
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #ffffff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #28044C;
+  
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #28044C;
 }
+
 
 /*--------------------------------------------------------------
 # Recent Blog Posts
@@ -1620,7 +1828,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
-  background: #fafbff;
+  background: #ffffff;
   padding: 30px;
 }
 
@@ -1645,9 +1853,12 @@ section {
 }
 
 .contact .php-email-form {
-  background: #fafbff;
+  background: #FAFBFF;
   padding: 30px;
   height: 100%;
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  color: #9f7d3e;
+
 }
 
 .contact .php-email-form .error-message {
@@ -1713,17 +1924,21 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: #28044C;
   border: 0;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 4px;
+  
+  font-weight: 600;
+   border-radius: 10px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #5969f3;
+  background: #25A6BA;
+  
 }
+
 
 @keyframes animate-loading {
   0% {
@@ -1734,7 +1949,9 @@ section {
     transform: rotate(360deg);
   }
 }
-
+.contact{
+padding-bottom: 90px !important;
+}
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
@@ -2247,7 +2464,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background: #000000;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
@@ -2303,10 +2520,10 @@ section {
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background:#CC9966;
   background-size: contain;
-  border-top: 1px solid #e1ecff;
-  border-bottom: 1px solid #e1ecff;
+  border-top: 0px solid #e1ecff;
+  border-bottom: 0px solid #e1ecff;
   padding: 60px 0 30px 0;
 }
 
@@ -2334,22 +2551,23 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
-  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-family: "Bricolage Grotesque", sans-serif;
   margin-top: 3px;
 }
 
 .footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 20px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
 }
 
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: rgba(255, 255, 255, 0.86);
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
@@ -2362,14 +2580,14 @@ section {
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: #ffffff;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
 }
 
 .footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .footer .footer-top .footer-links ul {
@@ -2380,13 +2598,13 @@ section {
 
 .footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #d0d4fc;
+  color: #d9fcd0;
   font-size: 12px;
   line-height: 0;
 }
 
 .footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  padding: 0px 0;
   display: flex;
   align-items: center;
 }
@@ -2396,10 +2614,12 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: #013289;
+  color: #ffffff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+
 }
 
 .footer .footer-top .footer-links ul a:hover {
@@ -2413,12 +2633,18 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #012970;
+  color: #ffffff;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
 }
 
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: #ffffff;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.datos {
+  color: #ffffff;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
 }
